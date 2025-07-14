@@ -20,6 +20,7 @@ function App() {
 
   return (
       <>
+          <p>Hello World!</p>
 
         <CurrencyContext.Provider value={{ currency, updateCurrency }}>
           <AmountContext.Provider value={{ amount, updateAmount }}>
